@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Introducción}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Vim y otros editores de texto}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Mi experiencia}{8}{0}{1}
+\beamer@subsectionintoc {1}{3}{Instalar Vim}{11}{0}{1}
+\beamer@subsectionintoc {1}{4}{Modos de Vim}{12}{0}{1}
