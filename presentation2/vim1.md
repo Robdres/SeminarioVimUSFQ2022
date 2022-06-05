@@ -1,7 +1,6 @@
 ---
 theme: ./theme/style.json
 author: Roberto Alvarado
-date: January 2, 2006
 paging: Slide %d / %d
 ---
                      _                                  _       __     ___           
@@ -17,29 +16,50 @@ paging: Slide %d / %d
 
                   Entendiendo como hablar a Vim
 
+
 ---
-## Primero como movernos en vim ##
+
+# Comandos generales
+
+### Como cambiar de un estado a otro
+
+Modo command o normal es el primer estado que se encuentra el editor
+
+                        ------->
+                                      <Esc>                       v
+                        |Insert|-----------------|Normal| -------------------|Visual|
+                                        i                         <Esc>
+                                                                            <--------
+
+¡No son la unica forma de cambiar entre estados!
+---
+# Comandos generales
+
+### Guardar los cambios
+                      :w <file-name>
+### Salir de Vim
+                      :q
+### Abrir un nuevo archivo en Vim
+                      :e <file-name>
+
+---
+## Como movernos en vim 
 
 Primer Paso: DEJAR A UN LADO LAS FLECHAS
 
+¿Por qué? __Buscamos la máxima eficiencia__
+
 ```
 ~~~graph-easy --as=boxart
-[ Fleclas ] - to -> [ hjkl ]
+[ Fleclas ] --> [ hjkl ]
 ~~~
 ```
-                                    
                                               ﰵ
                                    ---       ---       ---        ---
-                                 | h |     | j |     | k |      | h | 
+                                 | h |     | j |     | k |      | l | 
                                    ---       ---       ---        ---
                                                         
-
 ---
-```
-~~~graph-easy --as=boxart
 
-[ Flechas ] --> [ h ]
-[ A ] - to -> [ B ]
-~~~
-```
+
 
